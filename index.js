@@ -7,7 +7,7 @@ app.get('/', (req, res) => res.sendFile(__dirname+'/frontend/html/home.html'))
 app.get('/login', (req, res) => res.send('Login!'))
 app.get('/Register', (req, res) => res.send('Register!'))
 var student={
-    "name":"manikanth",
+    "name":"manikanth reddy",
     "college":"vnrvjiet",
     "regno":"17071A12A2"
 };
