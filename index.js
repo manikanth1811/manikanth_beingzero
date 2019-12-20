@@ -8,7 +8,7 @@ app.get('/login', (req, res) => res.send('Login!'))
 app.get('/Register', (req, res) => res.send('Register!'))
 var student={
     "name":"manikanth reddy",
-    "college":"vnrvjiet",
+    "college":"VNRVJIET",
     "regno":"17071A12A2"
 };
 app.get('/data',(req,res)=>res.json(student))
