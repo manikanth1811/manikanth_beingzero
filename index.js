@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const port = process.env.PORT || 3000
 //tells express to serve the js or css files form fronted folder
 app.use(express.static('frontend'))
 app.get('/', (req, res) => res.sendFile(__dirname+'/frontend/html/home.html'))
